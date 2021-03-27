@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <script src="https://kit.fontawesome.com/eb79d94ffe.js" crossorigin="anonymous"></script>
+    
+    <title>Pixel UI | Docs</title>
+</head>
+<body>
+    <div class="header-container">
+        <div class="header">
+            <span style="margin-right: 1rem;" id="open-sidebar"><i class="fas fa-bars fa-lg"></i></span>
+            <h1>Pixel UI</h1>
+                <div class="header-links-right">
+                <a target="_blank" href="https://github.com/achalsaharan/pixel-ui"><i class="fab fa-github"></i></a>
+                <a target="_blank" href="https://linkedin.com/in/achalsaharan"> <i class="fab fa-linkedin-in "></i></a>
+                <a target="_blank" href="https://twitter.com/achalsaharan_"><i class="fab fa-twitter "></i></a>    
+            </div>
+        </div>
+    </div>
+    <div class="container-main">
+        <div class="sidebar-modal">
+            <div class="sidebar-mobile">
+                <span id="close-sidebar">&times;</span>
+                <a href="./index.html"><i class="fas fa-home"></i>Home</a>
+                <a target="_blank" href="https://github.com/achalsaharan/pixel-ui"><i class="fab fa-github"></i>Github Repo</a>
+                <a target="_blank" href="https://linkedin.com/in/achalsaharan"> <i class="fab fa-linkedin-in "></i>LinkedIn</a>
+                <a arget="_blank" href="https://twitter.com/achalsaharan_"><i class="fab fa-twitter"></i>Twitter</a>
+                <span class="divider"></span>
+                <a href="#buttons">Buttons</a>
+                <a href="#avatar">Avatar</a>
+                <a href="#loader">Loader</a>
+                <a href="#rating">Rating</a>
+                <a href="#image">Images</a>
+                <a href="#typography">Typography</a>
+                <a href="#card">Cards</a>
+            </div>
+        </div>
+        <div class="sidebar-container">
+            <div class="sidebar">
+                <a href="./index.html"><i class="fas fa-home"></i>Home</a>
+                <a href=""><i class="fab fa-github"></i>Github Repo</a>
+                <span class="divider"></span>
+                <a href="#buttons">Buttons</a>
+                <a href="#avatar">Avatar</a>
+                <a href="#loader">Loader</a>
+                <a href="#rating">Rating</a>
+                <a href="#image">Images</a>
+                <a href="#typography">Typography</a>
+                <a href="#card">Cards</a>
+            </div>
+        </div>
+        
+        <div style="margin-top: 2rem;"class="main-content">
+            <div id="buttons" class="component">
+                <h2>Buttons</h2>
+                <div class="component-showcase">
+                    <button class="btn btn-primary" style="margin-right: 1rem;">Button Primary</button>
+                    <button class="btn btn-secondary">Button Secondary</button>
+                </div>
+                <div class="code-example">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=bw&l=auto&ds=true&dsyoff=0px&dsblur=36px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EButton%2520Primary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2522%253EButton%2520Secondary%253C%252Fbutton%253E"
+                        style="width: 421px; height: 136px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </div>
+
+
+            <div id="avatar" class="component">
+                <h2>Avatar</h2>
+                <p class="body-cp-lg light-font-weight">Avatar can be used to show user's profile picture on profile information page, on navigation bar, in blogs grid items.</p>
+                <div class="component-showcase">
+                    <div>
+                        <img class="avatar" src="./assets/avatar.jpg">
+                    </div>
+                    <div>
+                        <img class="avatar-lg"src="./assets/avatar.jpg">
+                    </div>
+                </div>
+                <div class="code-example">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=bw&l=auto&ds=true&dsyoff=0px&dsblur=36px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=211%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522assets%252Fuser.png%2522%253E%250A%253Cimg%2520class%253D%2522avatar-lg%2522src%253D%2522assets%252Fuser.png%2522%253E"
+                        style="width: 421px; height: 136px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <div class="component-showcase">
+                    <div>
+                        <img class="avatar" src="./assets/avatar2.jpg">
+                        <span class="badge">5</span>
+                    </div>
+                    <div>
+                        <img class="avatar-lg" src="./assets/avatar2.jpg">
+                        <span class="badge-lg">6</span>
+                    </div>
+                    <div>
+                        <img class="avatar-lg" src="assets/avatar2.jpg">
+                        <span class="badge-lg">7</span>
+                    </div>
+                    <div>
+                        <i class="fas fa-envelope-open-text fa-3x avatar"></i>
+                        <span class="badge">8</span>
+                    </div>
+                </div>
+                <div class="code-example">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=bw&l=htmlmixed&ds=true&dsyoff=0px&dsblur=36px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=211%25&si=false&es=2x&wm=false&code=%253Cdiv%253E%250A%2509%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522assets%252Fuser.png%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2522%253E5%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+                        style="width: 438px; height: 194px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </div>
+
+
+            <div id="loader" class="component">
+                <h2>Loader</h2>
+                <p class="body-cp-lg light-font-weight">Loader is used when something is processing that takes times, like network requests etc.</p>
+                <div class="component-showcase">
+                    <div class="loader"></div>
+                </div>
+                <div class="code-example">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=bw&l=htmlmixed&ds=true&dsyoff=0px&dsblur=36px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=211%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522loader%2522%253E%253C%252Fdiv%253E"
+                        style="width: 266px; height: 107px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </div>
+
+
+            <div id="rating" class="component">
+                <h2>Rating</h2>
+                <div class="component-showcase">
+                    <div class="rating ">
+                        <span>5</span>
+                        <span><i class="fas fa-star fa-sm"></i></span>
+                    </div>
+                    <div class="rating rating-green">
+                        <span>4.5</span>
+                        <span><i class="fas fa-star fa-sm"></i></span>
+                    </div>
+                </div>
+                <div class="code-example">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=bw&l=htmlmixed&ds=true&dsyoff=0px&dsblur=36px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=211%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522rating%2520%2522%253E%250A%2509%253Cspan%253E5%253C%252Fspan%253E%250A%2509%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-star%2520fa-sm%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522rating%2520rating-green%2522%253E%250A%2509%253Cspan%253E4.5%253C%252Fspan%253E%250A%2509%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-star%2520fa-sm%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+                        style="width: 473px; height: 310px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </div>
+
+
+            <div id="image" class="component">
+                <h2>Image</h2>
+                <p class="body-cp-lg light-font-weight">Makes images can be responsive to fit the parent's width</p>
+                <div class="component-showcase">
+                    <img class="image-responsive" src="./assets/landscape.jpg">
+                </div>
+                <div class="code-example">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=one-dark&wt=sharp&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522image-responsive%2522%2520src%253D%2522.%252Fassets%252Flandscape.jpg%2522%253E"
+                        style="width: 535px; height: 94px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </div>
+
+
+            <div id="typography" class="component">
+                <h2>Typography</h2>
+                <p class="body-cp-lg light-font-weight">Use typography to present your design and content as clearly and efficiently as possible.</p>
+                
+                <div class="component-showcase" style="display: block">
+                    <h1>H1 - Heading</h1>
+                    <h2>H2 - Heading</h2>
+                    <h3>H3 - Heading</h3>
+                    <h4>H4 - Heading</h4>
+                    <h5>H5 - Heading</h5>
+                    <h6>H6 - Heading</h6>
+                </div>
+                <div class="code-example">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=one-dark&wt=sharp&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Ch1%253EH1%2520-%2520Heading%253C%252Fh1%253E%250A%253Ch2%253EH2%2520-%2520Heading%253C%252Fh2%253E%250A%253Ch3%253EH3%2520-%2520Heading%253C%252Fh3%253E%250A%253Ch4%253EH4%2520-%2520Heading%253C%252Fh4%253E%250A%253Ch5%253EH5%2520-%2520Heading%253C%252Fh5%253E%250A%253Ch6%253EH6%2520-%2520Heading%253C%252Fh6%253E"
+                        style="width: 215px; height: 194px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <h3>Text Utilites</h3>
+                <div class="component-showcase" style="display: block">
+                    <p>You can <span class="highlight">highlight</span> text using the highlight class</p>
+                    <p class="strike-through">Strike thorugh text using the strikthrough class</p>
+                    <p class="light-font-weight">Text with light font weight</p>
+                    <p class="bold-font-weight">Text with bold font weight</p>
+                    <p class="text-small-size">Text small</p>
+                    <p class="primary-text-color">Text with primary color</p>
+                </div>
+                <div class="code-example">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=one-dark&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cp%253EYou%2520can%2520%253Cspan%2520class%253D%2522highlight%2522%253Ehighlight%253C%252Fspan%253E%2520text%2520using%2520the%2520highlight%2520class%253C%252Fp%253E%250A%253Cp%2520class%253D%2522strike-through%2522%253EStrike%2520thorugh%2520text%2520using%2520the%2520strikthrough%2520class%253C%252Fp%253E%250A%253Cp%2520class%253D%2522light-font-weight%2522%253EText%2520with%2520light%2520font%2520weight%253C%252Fp%253E%250A%253Cp%2520class%253D%2522bold-font-weight%2522%253EText%2520with%2520bold%2520font%2520weight%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-small-size%2522%253EText%2520small%253C%252Fp%253E%250A%253Cp%2520class%253D%2522primary-text-color%2522%253EText%2520with%2520primary%2520color%253C%252Fp%253E%250A"
+                        style="width: 763px; height: 214px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                </div>
+            </div>
+
+
+            <div id="card" class="component">
+                <h1>Card</h1>
+                <p class="body-cp-lg light-font-weight">Cards are used to show user related data collectively, like product details.</p>
+                <div class="component-showcase" style="align-items: stretch;">
+                    <div class="card shadow-box">
+                        <div class="image-container">
+                            <img class="image-responsive" src='./assets/tshirt.png'>
+                        </div>
+                        <div class="card-text-container">
+                            <p class="bold-font-weight product-title">H&M</p>
+                            <p class="light-font-weight">Men Polo Shirt Slim Fit</p>
+                            <div class="card-price-info">
+                                <span class="bold-font-weight">₹599</span>
+                                <span class="strike-through text-small-size light-font-weight">₹799</span>
+                                <span class="primary-text-color light-font-weight text-small-size">(30% OFF)</span></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card shadow-box">
+                        <div class="image-container">
+                            <img class="image-responsive" src='./assets/tshirt2.png'>
+                        </div>
+                        <div class="card-text-container">
+                            <p class="bold-font-weight product-title">Roadster</p>
+                            <p class="light-font-weight">Men Micro Check Shirt</p>
+                            <div class="card-price-info">
+                                <span class="bold-font-weight">₹769</span>
+                                <span class="strike-through text-small-size light-font-weight">₹1399</span>
+                                <span class="primary-text-color light-font-weight text-small-size">(45% OFF)</span></p>
+                            </div>
+                        </div>
+                        <span class="card-badge">New</span>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <a href="#" class="btn-float-action"><i class="fas fa-arrow-up fa-lg"></i></a>
+        </div>
+    </div>
+    <script src="./scripts/app.js"></script>
+</body>
+</html>

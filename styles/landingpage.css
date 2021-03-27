@@ -1,0 +1,68 @@
+.landing-page-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    height: calc(100vh - 5rem);
+    max-width: var(--max-width);
+    padding: 0rem 0.5rem;
+    padding-top: 5rem;
+}
+
+.landing-page-image {
+    height: 100%;
+    background-image: url('../assets/pixel-bg-2.png');
+}
+
+.landing-page-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0rem 2rem;
+}
+
+.landing-page-content > h1 {
+    font-family: 'pixelFont';
+}
+
+.installation-code {
+    border: 1px solid var(--primary);
+}
+
+.code-snippet-display {
+    box-sizing: border-box;
+    width: 100%;
+    overflow: scroll;
+    max-height: 300px;
+    padding: 1rem 0;
+    background-color: #fafafa;
+    margin: 2rem 0;
+}
+
+.code-snippet-display iframe {
+    width: 100%;
+    border: none;
+}
+
+.test > pre {
+    border: none;
+    width: 100%;
+}
+
+.test > pre > code > span {
+    font-size: 1rem;
+}
+
+@media only screen and (max-width: 725px) {
+    .landing-page-container {
+        grid-template-columns: 1fr;
+    }
+
+    .test > pre > code > span {
+        font-size: 0.9rem;
+    }
+
+    .landing-page-content {
+        padding: 0rem 0.5rem;
+    }
+}

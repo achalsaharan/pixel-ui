@@ -1,0 +1,101 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    margin: 0.625rem 0;
+    line-height: 1.2;
+    font-weight: 500;
+    color: var(--text);
+}
+.h1,
+h1 {
+    font-size: 3rem;
+}
+.h2,
+h2 {
+    font-size: 2.5rem;
+}
+.h3,
+h3 {
+    font-size: 2rem;
+}
+.h4,
+h4 {
+    font-size: 1.75rem;
+}
+.h5,
+h5 {
+    font-size: 1.5rem;
+}
+.h6,
+h6 {
+    font-size: 1.25rem;
+}
+
+p,
+.p {
+    font-size: 1rem;
+    margin: 0.625rem 0;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.highlight {
+    background-color: var(--gray-light);
+}
+
+.strike-through {
+    text-decoration: line-through;
+}
+
+.light-font-weight {
+    font-weight: 300;
+}
+
+.bold-font-weight {
+    font-weight: 500;
+}
+
+.primary-text-color {
+    color: var(--primary);
+}
+
+.text-small-size {
+    font-size: 0.875rem;
+}
+
+.body-cp-lg {
+    font-size: 1.5rem;
+}
+
+.border-primary {
+    border: 1px solid var(--primary);
+}
+
+.display-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.vertical-middle {
+    justify-content: center;
+    align-items: center;
+}
+
+.shadow-box {
+    /* box-shadow: 0px 0px 2px 2px rgb(0 0 0 / 20%); */
+    box-shadow: 0px 0px 10px 4px rgb(0 0 0 / 5%);
+}

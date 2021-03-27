@@ -1,0 +1,16 @@
+.rating {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.2rem 0.3rem;
+    background-color: #fcd34d;
+    border-radius: 2px;
+    font-size: 0.9rem;
+}
+
+.rating > span:nth-of-type(1) {
+    margin-right: 0.5rem;
+}
+
+.rating-green {
+    background-color: #10b981;
+}
