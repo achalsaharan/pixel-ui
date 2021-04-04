@@ -1,6 +1,6 @@
 .loader {
     border: 0.5rem solid #f3f3f3; /* Light grey */
-    border-top: 0.5rem solid var(--primary); /* Blue */
+    border-top: 0.5rem solid var(--primary-color); /* Blue */
     border-radius: 50%;
     width: 2.5rem;
     height: 2.5rem;

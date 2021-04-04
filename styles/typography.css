@@ -70,7 +70,7 @@ a {
 }
 
 .primary-text-color {
-    color: var(--primary);
+    color: var(--primary-color);
 }
 
 .text-small-size {
@@ -82,7 +82,7 @@ a {
 }
 
 .border-primary {
-    border: 1px solid var(--primary);
+    border: 1px solid var(--primary-color);
 }
 
 .display-flex {
