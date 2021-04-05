@@ -1,0 +1,48 @@
+.btn {
+    padding: 0.5rem 0.9rem;
+    border-radius: 2px;
+    border-radius: 2px;
+    border: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-decoration: none;
+    margin: 0.3rem 0rem 0.3rem 0rem;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: #fff;
+    border: 2px solid var(--primary-color);
+}
+
+.btn-secondary {
+    background-color: #fff;
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-dark-color);
+    border-color: var(--primary-dark);
+}
+
+.btn-secondary:hover {
+    color: var(--primary-dark-color);
+    border-color: var(--primary-dark-color);
+}
+
+.btn-float-action {
+    position: fixed;
+    z-index: var(--float-action-btn-z-index);
+    bottom: 1rem;
+    right: 1rem;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+    text-decoration: none;
+    color: #fff;
+}

@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+@import 'buttons.css';
+@import 'avatar.css';
+@import 'loader.css';
+@import 'modal.css';
+@import 'rating.css';
+@import 'image.css';
+@import 'typography.css';
+@import 'cards.css';
+@import 'landingpage.css';
+
+@font-face {
+    font-family: 'pixelFont';
+    src: url(../fonts/pixel-font.TTF);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --primary-color: #00bfa5;
+    --primary-dark-color: #008e76;
+    --primary-light-color: #5df2d6;
+
+    --gray: #6b7280;
+    --gray-dark: #111827;
+
+    --gray-color: #6b7280;
+    --gray-dark-color: #111827;
+
+    --text: #3e4152;
+    --gray-light: #d1d5db;
+    --max-width: 1200px;
+    --header-z-index: 2;
+    --modal-z-index: 3;
+    --float-action-btn-z-index: 2;
+    --card-badge-z-index: 1;
+}
+
+.header-container {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /* color: var(--primary); */
+    box-shadow: 0px 0px 10px 4px rgb(0 0 0 / 5%);
+    z-index: var(--header-z-index);
+    background-color: #fff;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0.5rem;
+    /* color: var(--primary); */
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.header > h1 {
+    font-family: 'pixelFont', sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.header-links-right {
+    margin-left: auto;
+}
+
+.header-links-right > a {
+    margin: 0rem 1rem;
+}
+
+.header-links-right > a:hover {
+    color: var(--primary-color);
+}
+
+.container-main {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 0.5rem;
+    max-width: var(--max-width);
+    padding: 0.5rem;
+    margin: 0 auto;
+    margin-top: 3rem;
+    min-height: 100px;
+}
+
+.sidebar-container {
+    position: relative;
+    margin-top: 2rem;
+}
+
+.sidebar {
+    /* border: 1px solid black; */
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    color: var(--gray);
+    font-weight: 500;
+    overflow: auto;
+}
+/* 
+.main-content {
+} */
+
+.divider {
+    width: 90%;
+    border: 0.5px solid var(--gray-dark);
+    margin: 1rem 0rem;
+}
+
+.sidebar > a {
+    margin: 0.6rem 0rem;
+    cursor: pointer;
+}
+
+.sidebar > a > i {
+    margin-right: 0.3rem;
+    color: var(--primary-color);
+}
+
+.sidebar > a:hover {
+    color: var(--gray-dark);
+}
+
+.component {
+    /* border-bottom: 1px solid var(--gray-light); */
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.component-showcase {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 1rem;
+    border: 2px solid var(--gray-light);
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    width: auto;
+    margin-right: 0.5rem;
+}
+
+.component-showcase > div {
+    margin-right: 1.5rem;
+}
+
+/* .code-example {
+    max-width: 500px;
+    background-color: #263238;
+} */
+
+.code-example > iframe {
+    max-width: 500px !important;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.sidebar-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgb(19, 19, 19, 0.2);
+    width: 100%;
+    height: 100%;
+    z-index: var(--modal-z-index);
+}
+
+.sidebar-mobile {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #fff;
+    padding: 1rem;
+    padding-top: 0;
+    width: 50%;
+    font-weight: 500;
+    color: var(--gray);
+}
+
+.divider {
+    width: 90%;
+    border: 0.5px solid var(--gray-dark);
+    margin: 1rem 0rem;
+}
+
+.sidebar-mobile > a {
+    margin: 0.6rem 0rem;
+    cursor: pointer;
+}
+
+.sidebar-mobile > a > i {
+    margin-right: 0.3rem;
+    color: var(--primary-color);
+}
+
+.sidebar-mobile > a:hover {
+    color: var(--gray-dark);
+}
+
+#open-sidebar {
+    display: none;
+    color: #000;
+}
+
+#close-sidebar {
+    margin-left: auto;
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+hr {
+    margin: 2rem 0rem 2rem;
+}
+
+@media only screen and (max-width: 725px) {
+    .container-main {
+        grid-template-columns: 1fr;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    #open-sidebar {
+        display: inline;
+    }
+
+    .code-example {
+        max-width: calc(100vw - 1rem);
+        margin-right: 0.5rem;
+    }
+
+    .header-links-right {
+        display: none;
+    }
+}

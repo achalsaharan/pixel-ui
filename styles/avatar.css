@@ -1,0 +1,41 @@
+.avatar {
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 50%;
+}
+
+.avatar-lg {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+}
+
+.badge {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: var(--primary-dark-color);
+    color: #fff;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    bottom: 1.5rem;
+    left: 1.8rem;
+}
+
+.badge-lg {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: var(--primary-dark-color);
+    color: #fff;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    bottom: 1.5rem;
+    left: 3rem;
+}
