@@ -9,7 +9,7 @@ x<!DOCTYPE html>
             src="https://kit.fontawesome.com/eb79d94ffe.js"
             crossorigin="anonymous"
         ></script>
-
+        <link href="prism/prism.css" rel="stylesheet" />
         <title>Pixel UI | Docs</title>
     </head>
     <body>
@@ -95,19 +95,18 @@ x<!DOCTYPE html>
                             Button Secondary
                         </button>
                     </div>
+
                     <div class="code-example">
-                        <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=bw&l=auto&ds=true&dsyoff=0px&dsblur=36px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EButton%2520Primary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2522%253EButton%2520Secondary%253C%252Fbutton%253E"
-                            style="
-                                width: 421px;
-                                height: 136px;
-                                border: 0;
-                                transform: scale(1);
-                                overflow: hidden;
-                            "
-                            sandbox="allow-scripts allow-same-origin"
-                        >
-                        </iframe>
+                        <pre>
+                            <code class="language-html">
+&ltbutton class="btn btn-primary">
+    Button Primary
+&lt/button>
+
+&ltbutton class="btn btn-secondary">
+    Button Secondary
+&lt/button></code>
+                        </pre>
                     </div>
                 </div>
 
@@ -127,18 +126,16 @@ x<!DOCTYPE html>
                         </div>
                     </div>
                     <div class="code-example">
-                        <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=bw&l=auto&ds=true&dsyoff=0px&dsblur=36px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=211%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522assets%252Fuser.png%2522%253E%250A%253Cimg%2520class%253D%2522avatar-lg%2522src%253D%2522assets%252Fuser.png%2522%253E"
-                            style="
-                                width: 421px;
-                                height: 136px;
-                                border: 0;
-                                transform: scale(1);
-                                overflow: hidden;
-                            "
-                            sandbox="allow-scripts allow-same-origin"
-                        >
-                        </iframe>
+                        <pre>
+                            <code class="language-html">
+&ltdiv>
+    &ltimg class="avatar" src="./assets/avatar.jpg" />
+&lt/div>
+
+&ltdiv>
+    &ltimg class="avatar-lg" src="./assets/avatar.jpg" />
+&lt/div></code>
+                        </pre>
                     </div>
                     <div class="component-showcase">
                         <div>
@@ -160,19 +157,27 @@ x<!DOCTYPE html>
                             <span class="badge">8</span>
                         </div>
                     </div>
+
                     <div class="code-example">
-                        <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=bw&l=htmlmixed&ds=true&dsyoff=0px&dsblur=36px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=211%25&si=false&es=2x&wm=false&code=%253Cdiv%253E%250A%2509%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522assets%252Fuser.png%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2522%253E5%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
-                            style="
-                                width: 438px;
-                                height: 194px;
-                                border: 0;
-                                transform: scale(1);
-                                overflow: hidden;
-                            "
-                            sandbox="allow-scripts allow-same-origin"
-                        >
-                        </iframe>
+                        <pre>
+                            <code class="language-html">
+&ltdiv>
+    &ltimg class="avatar" src="./assets/avatar2.jpg" />
+    &ltspan class="badge">5&lt/span>
+&lt/div>
+&ltdiv>
+    &ltimg class="avatar-lg" src="./assets/avatar2.jpg" />
+    &ltspan class="badge-lg">6&lt/span>
+&lt/div>
+&ltdiv>
+    &ltimg class="avatar-lg" src="assets/avatar2.jpg" />
+    &ltspan class="badge-lg">7&lt/span>
+&lt/div>
+&ltdiv>
+    &lti class="fas fa-envelope-open-text fa-3x avatar">&lt/i>
+    &ltspan class="badge">8&lt/span>
+&lt/div></code>
+                        </pre>
                     </div>
                 </div>
 
@@ -186,61 +191,60 @@ x<!DOCTYPE html>
                         <div class="loader"></div>
                     </div>
                     <div class="code-example">
-                        <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=bw&l=htmlmixed&ds=true&dsyoff=0px&dsblur=36px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=211%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522loader%2522%253E%253C%252Fdiv%253E"
-                            style="
-                                width: 266px;
-                                height: 107px;
-                                border: 0;
-                                transform: scale(1);
-                                overflow: hidden;
-                            "
-                            sandbox="allow-scripts allow-same-origin"
-                        >
-                        </iframe>
+                        <pre>
+                            <code class="language-html">
+&ltdiv class="loader">&lt/div>
+                            </code>
+                        </pre>
                     </div>
-                </div>
 
-                <div id="rating" class="component">
-                    <h2>Rating</h2>
-                    <div class="component-showcase">
-                        <div class="rating">
-                            <span>5</span>
-                            <span><i class="fas fa-star fa-sm"></i></span>
+                    <div id="rating" class="component">
+                        <h2>Rating</h2>
+                        <div class="component-showcase">
+                            <div class="rating">
+                                <span>5</span>
+                                <span><i class="fas fa-star fa-sm"></i></span>
+                            </div>
+                            <div class="rating rating-green">
+                                <span>4.5</span>
+                                <span><i class="fas fa-star fa-sm"></i></span>
+                            </div>
                         </div>
-                        <div class="rating rating-green">
-                            <span>4.5</span>
-                            <span><i class="fas fa-star fa-sm"></i></span>
+                        <div class="code-example">
+                            <pre>
+                            <code class="language-html">
+&ltdiv class="rating">
+    &ltspan>5&lt/span>
+    &ltspan>&lti class="fas fa-star fa-sm">&lt/i>&lt/span>
+&lt/div>
+&ltdiv class="rating rating-green">
+    &ltspan>4.5&lt/span>
+    &ltspan>&lti class="fas fa-star fa-sm">&lt/i>&lt/span>
+&lt/div></code>
+                        </pre>
                         </div>
                     </div>
-                    <div class="code-example">
-                        <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=bw&l=htmlmixed&ds=true&dsyoff=0px&dsblur=36px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=211%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522rating%2520%2522%253E%250A%2509%253Cspan%253E5%253C%252Fspan%253E%250A%2509%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-star%2520fa-sm%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522rating%2520rating-green%2522%253E%250A%2509%253Cspan%253E4.5%253C%252Fspan%253E%250A%2509%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-star%2520fa-sm%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
-                            style="
-                                width: 473px;
-                                height: 310px;
-                                border: 0;
-                                transform: scale(1);
-                                overflow: hidden;
-                            "
-                            sandbox="allow-scripts allow-same-origin"
-                        >
-                        </iframe>
-                    </div>
-                </div>
 
-                <div id="image" class="component">
-                    <h2>Image</h2>
-                    <p class="body-cp-lg light-font-weight">
-                        Makes images can be responsive to fit the parent's width
-                    </p>
-                    <div class="component-showcase">
-                        <img
-                            class="image-responsive"
-                            src="./assets/landscape.jpg"
-                        />
-                    </div>
-                    <div class="code-example">
+                    <div id="image" class="component">
+                        <h2>Image</h2>
+                        <p class="body-cp-lg light-font-weight">
+                            Makes images can be responsive to fit the parent's
+                            width
+                        </p>
+                        <div class="component-showcase">
+                            <img
+                                class="image-responsive"
+                                src="./assets/landscape.jpg"
+                            />
+                        </div>
+                        <div class="code-example">
+                            <pre>
+                            <code class="language-html">
+&ltimg class="image-responsive" src="./assets/landscape.jpg"/>
+                            </code>
+                        </pre>
+                        </div>
+                        <!-- <div class="code-example">
                         <iframe
                             src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=one-dark&wt=sharp&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522image-responsive%2522%2520src%253D%2522.%252Fassets%252Flandscape.jpg%2522%253E"
                             style="
@@ -252,7 +256,7 @@ x<!DOCTYPE html>
                             "
                             sandbox="allow-scripts allow-same-origin"
                         >
-                        </iframe>
+                        </iframe> -->
                     </div>
                 </div>
 
@@ -272,6 +276,17 @@ x<!DOCTYPE html>
                         <h6>H6 - Heading</h6>
                     </div>
                     <div class="code-example">
+                        <pre>
+                            <code class="language-html">
+&lth1>H1 - Heading&lt/h1>
+&lth2>H2 - Heading&lt/h2>
+&lth3>H3 - Heading&lt/h3>
+&lth4>H4 - Heading&lt/h4>
+&lth5>H5 - Heading&lt/h5>
+&lth6>H6 - Heading&lt/h6></code>
+                        </pre>
+                    </div>
+                    <!-- <div class="code-example">
                         <iframe
                             src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=one-dark&wt=sharp&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Ch1%253EH1%2520-%2520Heading%253C%252Fh1%253E%250A%253Ch2%253EH2%2520-%2520Heading%253C%252Fh2%253E%250A%253Ch3%253EH3%2520-%2520Heading%253C%252Fh3%253E%250A%253Ch4%253EH4%2520-%2520Heading%253C%252Fh4%253E%250A%253Ch5%253EH5%2520-%2520Heading%253C%252Fh5%253E%250A%253Ch6%253EH6%2520-%2520Heading%253C%252Fh6%253E"
                             style="
@@ -284,7 +299,7 @@ x<!DOCTYPE html>
                             sandbox="allow-scripts allow-same-origin"
                         >
                         </iframe>
-                    </div>
+                    </div> -->
                     <h3>Text Utilites</h3>
                     <div class="component-showcase" style="display: block">
                         <p>
@@ -307,18 +322,27 @@ x<!DOCTYPE html>
                         </p>
                     </div>
                     <div class="code-example">
-                        <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=one-dark&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cp%253EYou%2520can%2520%253Cspan%2520class%253D%2522highlight%2522%253Ehighlight%253C%252Fspan%253E%2520text%2520using%2520the%2520highlight%2520class%253C%252Fp%253E%250A%253Cp%2520class%253D%2522strike-through%2522%253EStrike%2520thorugh%2520text%2520using%2520the%2520strikthrough%2520class%253C%252Fp%253E%250A%253Cp%2520class%253D%2522light-font-weight%2522%253EText%2520with%2520light%2520font%2520weight%253C%252Fp%253E%250A%253Cp%2520class%253D%2522bold-font-weight%2522%253EText%2520with%2520bold%2520font%2520weight%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-small-size%2522%253EText%2520small%253C%252Fp%253E%250A%253Cp%2520class%253D%2522primary-text-color%2522%253EText%2520with%2520primary%2520color%253C%252Fp%253E%250A"
-                            style="
-                                width: 763px;
-                                height: 214px;
-                                border: 0;
-                                transform: scale(1);
-                                overflow: hidden;
-                            "
-                            sandbox="allow-scripts allow-same-origin"
-                        >
-                        </iframe>
+                        <pre>
+                            <code class="language-html">
+&ltp>
+    You can
+    &ltspan class="highlight">highlight&lt/span> text using
+    the highlight class
+&lt/p>
+&ltp class="strike-through">
+    Strike thorugh text using the strikthrough class
+&lt/p>
+&ltp class="light-font-weight">
+    Text with light font weight
+&lt/p>
+&ltp class="bold-font-weight">
+    Text with bold font weight
+&lt/p>
+&ltp class="text-small-size">Text small&lt/p>
+&ltp class="primary-text-color">
+    Text with primary color
+&lt/p></code>
+                        </pre>
                     </div>
                 </div>
 
@@ -397,5 +421,6 @@ x<!DOCTYPE html>
             </div>
         </div>
         <script src="./scripts/app.js"></script>
+        <script src="./prism/prism.js"></script>
     </body>
 </html>

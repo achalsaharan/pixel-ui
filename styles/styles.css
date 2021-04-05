@@ -137,12 +137,14 @@
 
 .component-showcase {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     padding: 1rem;
     border: 2px solid var(--gray-light);
     margin-top: 1rem;
     border-radius: 0.5rem;
     width: auto;
+    margin-right: 0.5rem;
 }
 
 .component-showcase > div {
@@ -233,7 +235,8 @@ hr {
     }
 
     .code-example {
-        max-width: 450px;
+        max-width: calc(100vw - 1rem);
+        margin-right: 0.5rem;
     }
 
     .header-links-right {

@@ -44,6 +44,15 @@
     border: none;
 }
 
+.test2 {
+    width: 100%;
+    max-width: calc(100vw - 3rem);
+}
+
+/* .test2 > pre {
+    width: 100px;
+} */
+
 .test > pre {
     border: none;
     width: 100%;
