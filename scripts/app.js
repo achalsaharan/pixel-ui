@@ -20,3 +20,7 @@ mobileSidebarModal.addEventListener('click', (e) => {
         mobileSidebarModal.style.display = 'none';
     }
 });
+
+window.addEventListener('hashchange', function () {
+    window.scrollTo(window.scrollX, window.scrollY - 100);
+});
