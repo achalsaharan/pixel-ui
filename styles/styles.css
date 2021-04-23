@@ -215,6 +215,11 @@
     font-size: 2rem;
     margin-top: 0;
     margin-bottom: 0;
+    cursor: pointer;
+}
+
+#loader {
+    scroll-margin-top: 100px;
 }
 
 hr {
