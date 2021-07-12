@@ -21,6 +21,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+/* html {
+    scroll-behavior: smooth;
+} */
+
 :root {
     --primary-color: #00bfa5;
     --primary-dark-color: #008e76;
