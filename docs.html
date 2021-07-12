@@ -59,10 +59,10 @@ x<!DOCTYPE html>
                     <span class="divider"></span>
                     <a href="#buttons">Buttons</a>
                     <a href="#avatar">Avatar</a>
+                    <a href="#typography">Typography</a>
                     <a href="#loader">Loader</a>
                     <a href="#rating">Rating</a>
                     <a href="#image">Images</a>
-                    <a href="#typography">Typography</a>
                     <a href="#card">Cards</a>
                 </div>
             </div>
@@ -73,10 +73,10 @@ x<!DOCTYPE html>
                     <span class="divider"></span>
                     <a href="#buttons">Buttons</a>
                     <a href="#avatar">Avatar</a>
+                    <a href="#typography">Typography</a>
                     <a href="#loader">Loader</a>
                     <a href="#rating">Rating</a>
                     <a href="#image">Images</a>
-                    <a href="#typography">Typography</a>
                     <a href="#card">Cards</a>
                 </div>
             </div>
@@ -84,6 +84,15 @@ x<!DOCTYPE html>
             <div style="margin-top: 2rem" class="main-content">
                 <div id="buttons" class="component">
                     <h2>Buttons</h2>
+                    <p class="body-cp-lg light-font-weight">
+                        The primary action is an action that allows the user to
+                        accomplish their most common or most important goal,
+                        seondary actions are the lesser important actions.
+                    </p>
+                    <p class="body-cp-lg light-font-weight">
+                        Primary button is designed to immediately draw users
+                        attention.
+                    </p>
                     <div class="component-showcase">
                         <button
                             class="btn btn-primary"
@@ -181,87 +190,13 @@ x<!DOCTYPE html>
                     </div>
                 </div>
 
-                <div id="loader" class="component">
-                    <h2>Loader</h2>
-                    <p class="body-cp-lg light-font-weight">
-                        Loader is used when something is processing that takes
-                        times, like network requests etc.
-                    </p>
-                    <div class="component-showcase">
-                        <div class="loader"></div>
-                    </div>
-                    <div class="code-example">
-                        <pre>
-                            <code class="language-html">
-&ltdiv class="loader">&lt/div>
-                            </code>
-                        </pre>
-                    </div>
-
-                    <div id="rating" class="component">
-                        <h2>Rating</h2>
-                        <div class="component-showcase">
-                            <div class="rating">
-                                <span>5</span>
-                                <span><i class="fas fa-star fa-sm"></i></span>
-                            </div>
-                            <div class="rating rating-green">
-                                <span>4.5</span>
-                                <span><i class="fas fa-star fa-sm"></i></span>
-                            </div>
-                        </div>
-                        <div class="code-example">
-                            <pre>
-                            <code class="language-html">
-&ltdiv class="rating">
-    &ltspan>5&lt/span>
-    &ltspan>&lti class="fas fa-star fa-sm">&lt/i>&lt/span>
-&lt/div>
-&ltdiv class="rating rating-green">
-    &ltspan>4.5&lt/span>
-    &ltspan>&lti class="fas fa-star fa-sm">&lt/i>&lt/span>
-&lt/div></code>
-                        </pre>
-                        </div>
-                    </div>
-
-                    <div id="image" class="component">
-                        <h2>Image</h2>
-                        <p class="body-cp-lg light-font-weight">
-                            Makes images can be responsive to fit the parent's
-                            width
-                        </p>
-                        <div class="component-showcase">
-                            <img
-                                class="image-responsive"
-                                src="./assets/landscape.jpg"
-                            />
-                        </div>
-                        <div class="code-example">
-                            <pre>
-                            <code class="language-html">
-&ltimg class="image-responsive" src="./assets/landscape.jpg"/>
-                            </code>
-                        </pre>
-                        </div>
-                        <!-- <div class="code-example">
-                        <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=one-dark&wt=sharp&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522image-responsive%2522%2520src%253D%2522.%252Fassets%252Flandscape.jpg%2522%253E"
-                            style="
-                                width: 535px;
-                                height: 94px;
-                                border: 0;
-                                transform: scale(1);
-                                overflow: hidden;
-                            "
-                            sandbox="allow-scripts allow-same-origin"
-                        >
-                        </iframe> -->
-                    </div>
-                </div>
-
                 <div id="typography" class="component">
                     <h2>Typography</h2>
+                    <p class="body-cp-lg light-font-weight">
+                        Don't waste time deciding on the sizes and styling of
+                        you content, this component provides well tested, out of
+                        the box typographic styles.
+                    </p>
                     <p class="body-cp-lg light-font-weight">
                         Use typography to present your design and content as
                         clearly and efficiently as possible.
@@ -346,6 +281,85 @@ x<!DOCTYPE html>
                     </div>
                 </div>
 
+                <div id="loader" class="component">
+                    <h2>Loader</h2>
+                    <p class="body-cp-lg light-font-weight">
+                        Loader is used when something is processing that takes
+                        times, like network requests etc.
+                    </p>
+                    <div class="component-showcase">
+                        <div class="loader"></div>
+                    </div>
+                    <div class="code-example">
+                        <pre>
+                            <code class="language-html">
+&ltdiv class="loader">&lt/div>
+                            </code>
+                        </pre>
+                    </div>
+
+                    <div id="rating" class="component">
+                        <h2>Rating</h2>
+                        <div class="component-showcase">
+                            <div class="rating">
+                                <span>5</span>
+                                <span><i class="fas fa-star fa-sm"></i></span>
+                            </div>
+                            <div class="rating rating-green">
+                                <span>4.5</span>
+                                <span><i class="fas fa-star fa-sm"></i></span>
+                            </div>
+                        </div>
+                        <div class="code-example">
+                            <pre>
+                            <code class="language-html">
+&ltdiv class="rating">
+    &ltspan>5&lt/span>
+    &ltspan>&lti class="fas fa-star fa-sm">&lt/i>&lt/span>
+&lt/div>
+&ltdiv class="rating rating-green">
+    &ltspan>4.5&lt/span>
+    &ltspan>&lti class="fas fa-star fa-sm">&lt/i>&lt/span>
+&lt/div></code>
+                        </pre>
+                        </div>
+                    </div>
+
+                    <div id="image" class="component">
+                        <h2>Image</h2>
+                        <p class="body-cp-lg light-font-weight">
+                            Makes images can be responsive to fit the parent's
+                            width.
+                        </p>
+                        <div class="component-showcase">
+                            <img
+                                class="image-responsive"
+                                src="./assets/landscape.jpg"
+                            />
+                        </div>
+                        <div class="code-example">
+                            <pre>
+                            <code class="language-html">
+&ltimg class="image-responsive" src="./assets/landscape.jpg"/>
+                            </code>
+                        </pre>
+                        </div>
+                        <!-- <div class="code-example">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=one-dark&wt=sharp&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522image-responsive%2522%2520src%253D%2522.%252Fassets%252Flandscape.jpg%2522%253E"
+                            style="
+                                width: 535px;
+                                height: 94px;
+                                border: 0;
+                                transform: scale(1);
+                                overflow: hidden;
+                            "
+                            sandbox="allow-scripts allow-same-origin"
+                        >
+                        </iframe> -->
+                    </div>
+                </div>
+
                 <div id="card" class="component">
                     <h1>Card</h1>
                     <p class="body-cp-lg light-font-weight">
@@ -373,11 +387,19 @@ x<!DOCTYPE html>
                                 <div class="card-price-info">
                                     <span class="bold-font-weight">₹599</span>
                                     <span
-                                        class="strike-through text-small-size light-font-weight"
+                                        class="
+                                            strike-through
+                                            text-small-size
+                                            light-font-weight
+                                        "
                                         >₹799</span
                                     >
                                     <span
-                                        class="primary-text-color light-font-weight text-small-size"
+                                        class="
+                                            primary-text-color
+                                            light-font-weight
+                                            text-small-size
+                                        "
                                         >(30% OFF)</span
                                     >
                                 </div>
@@ -401,11 +423,19 @@ x<!DOCTYPE html>
                                 <div class="card-price-info">
                                     <span class="bold-font-weight">₹769</span>
                                     <span
-                                        class="strike-through text-small-size light-font-weight"
+                                        class="
+                                            strike-through
+                                            text-small-size
+                                            light-font-weight
+                                        "
                                         >₹1399</span
                                     >
                                     <span
-                                        class="primary-text-color light-font-weight text-small-size"
+                                        class="
+                                            primary-text-color
+                                            light-font-weight
+                                            text-small-size
+                                        "
                                         >(45% OFF)</span
                                     >
                                 </div>
